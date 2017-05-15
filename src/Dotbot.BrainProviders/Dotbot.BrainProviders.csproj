@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>Dotbot.BrainProviders</AssemblyName>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dotbot" Version="0.1.0-alpha0015" />
+    <PackageReference Include="Foundatio" Version="5.1.1448" />
+    <PackageReference Include="Foundatio.AWS" Version="5.1.1452" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>Dotbot.BrainProviders</PackageId>
+    <PackageTags>dotbot;bot;storage;azure;aws</PackageTags>
+    <Authors>achapman</Authors>
+    <Description>A simple package that extends DotBot with Brain providers for persisting data on the local file system, or in AWS S3 storage</Description>
+    <RepositoryUrl>https://github.com/agc93/dotbot-brainproviders</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/agc93/dotbot-brainproviders</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/agc93/dotbot-brainproviders/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+</Project>
